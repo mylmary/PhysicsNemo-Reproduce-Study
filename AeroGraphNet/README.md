@@ -24,7 +24,9 @@ NOTE: The dataset for the Ahmed Body case is not publicly available, you have to
 To train the model, run
 
 python train.py +experiment=ahmed/mgn data.data_dir=/data/ahmed_body/
+
 Make sure to set data.data_dir to a proper location.
+
 Read the paper: https://arxiv.org/abs/2001.11074
 
 
