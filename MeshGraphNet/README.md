@@ -9,7 +9,7 @@ transient vortex shedding — very important because it moves from a static PDE 
 NVIDIA specifically uses it as an introductory transient CFD example.
 
 
-<img width="238" height="240" alt="image" src="https://github.com/user-attachments/assets/33acad45-88c8-47d7-9ab2-a6896b5742e8" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/efd88d1c-9db2-4e95-b493-31b992314fe6" />
 
 
 
