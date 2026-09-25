@@ -1,4 +1,11 @@
 
+
+
+
+<img width="2494" height="696" alt="image" src="https://github.com/user-attachments/assets/1a4f2c85-d301-4bb0-b1aa-5b95451c3447" />
+
+
+
 Transolver was integrated into NVIDIA physicsnemo on 10.2024.
 
 Transolver is a Transformer-based neural operator designed to solve partial differential equations (PDEs) on complex, unstructured 3D meshes and general geometries with linear computational complexity.
