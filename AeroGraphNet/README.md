@@ -1,5 +1,5 @@
 
-
+### AeroGraphNet
 
 AeroGraphNet is a graph neural network (GNN) model designed to predict external aerodynamic flow features around car bodies.
 
@@ -13,9 +13,24 @@ Inputs: Surface mesh files (such as .vtp formats), Reynolds numbers, surface nor
 Outputs: Surface pressure, wall shear stresses, and overall drag coefficients.
 
 
-Use Cases Ahmed Body: Uses standard simplified geometries parameterized by length, width, height, ground clearance, slant angle, and fillet radius.
+Use Cases 
 
-Realistic Car Models: Trains on complex configurations (such as DrivAer geometries) to support real-time data-driven design optimization and generative car design.
+### Ahmed Body: 
+
+Uses standard simplified geometries parameterized by length, width, height, ground clearance, slant angle, and fillet radius. 
+
+NOTE: The dataset for the Ahmed Body case is not publicly available, you have to reach out to the NVIDIA PhysicsNeMo team to gain individual access.
+
+To train the model, run
+
+python train.py +experiment=ahmed/mgn data.data_dir=/data/ahmed_body/
+Make sure to set data.data_dir to a proper location.
+Read the paper: https://arxiv.org/abs/2001.11074
 
 
-https://docs.nvidia.com/physicsnemo/latest/physicsnemo/examples/cfd/external_aerodynamics/aero_graph_net/README.html#:~:text=AeroGraphNet%20currently%20supports%20two%20datasets%3A%20Ahmed%20Body%20and%20DrivAerNet.
+### Realistic Car Models: 
+
+Trains on complex configurations (such as DrivAer geometries) to support real-time data-driven design optimization and generative car design.
+
+Read the paper: https://arxiv.org/abs/2403.08055
+
